@@ -25,7 +25,7 @@ function DemoPage() {
             label="Employee Name"
             required
             tooltip="This is a required field"
-            rules={[{ type: "email", required: true }]}
+            rules={[{ required: true }]}
           >
             <Input placeholder="Enter Employee Name" />
           </Form.Item>
@@ -44,7 +44,7 @@ function DemoPage() {
       </div>
       <div className="details-table">
         <Table dataSource={employeeDetails}>
-          <Column title="Employee Name" dataIndex="id"  />
+          <Column title="Employee Id" dataIndex="id"  />
           <Column title="Employee Name" dataIndex="employee_name"  />
           <Column title="Email" dataIndex="email"  />
           <Column
