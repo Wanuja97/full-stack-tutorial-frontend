@@ -44,7 +44,7 @@ function DemoPage() {
       </div>
       <div className="details-table">
         <Table dataSource={employeeDetails}>
-          <Column title="Employee Name" dataIndex="id"  />
+          <Column title="Employee Id" dataIndex="id"  />
           <Column title="Employee Name" dataIndex="employee_name"  />
           <Column title="Email" dataIndex="email"  />
           <Column
